@@ -1,11 +1,11 @@
 # Custom Navigation Bar and Action Bar
 
-##Custom Action Bar :
+## Custom Action Bar :
 When you want to customize action bar all you have to do in **app_bar_main.xml** 
 There you will find **AppBarLayout** Which will contain a **toolbar** layout but you have to remove all of those and have to set **AppBarLayout** layout_height to **?actionBarSize**
 Then the **AppBarLayout** will take actionbar standard size .
 
-###Example Code:
+### Example Code:
 
 ```
     <com.google.android.material.appbar.AppBarLayout
